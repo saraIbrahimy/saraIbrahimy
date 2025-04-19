@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @saraIbrahimy
+- 👀 I’m interested in sotware devlapment
+- 🌱 I’m currently learning web devlopment and python class
+- 📫 How to reach me ? by email: ibrahimysara5@gamil.com
