@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+  <style>
+    body { font-family: Arial; background-color: #f3f3ff; }
+    label { display: block; margin-top: 10px; }
+    input, textarea { width: 300px; }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Hub</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about_me.html">About Me</a>
+          <a href="contact.html">Contact Me</a>
+          <a href="gallery.html">Gallery</a>
+        </nav>
+      </header>
+
+  <main>
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male" required> Male
+      <input type="radio" name="gender" value="female"> Female
+
+      <label>Interests:</label>
+      <input type="checkbox" name="interest" value="coding"> Coding
+      <input type="checkbox" name="interest" value="music"> Music
+      <input type="checkbox" name="interest" value="art"> Art
+
+      <br><br>
+      <input type="submit" value="Send Message">
+    </form>
+
+    <p>Or email me directly at <a href="mailto:ibrahimysara5@gamil.com">ibrahimysara5@gamil.com</a></p>
+  </main>
+
+  <footer>
+    <p>Let's stay in touch!</p>
+  </footer>
+</body>
+</html>
